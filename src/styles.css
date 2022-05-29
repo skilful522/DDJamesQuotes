@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background: navajowhite;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 25%;
+  height: 250px;
+  padding: 20px;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.card-clicked {
+  border: 1px solid green;
+}
+
+.quote {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 80%;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+  font-family: 'Blaka', cursive;
+}
